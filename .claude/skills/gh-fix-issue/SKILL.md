@@ -1,3 +1,8 @@
+---
+name: gh-fix-issue
+description: Pick up a GitHub issue, plan the fix, implement it, and run tests
+---
+
 Pick up a GitHub issue and implement a fix for it.
 
 Steps:

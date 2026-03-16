@@ -1,3 +1,8 @@
+---
+name: debug
+description: Systematic root cause analysis from error messages or symptoms
+---
+
 Help me debug this issue. Follow a systematic approach:
 
 1. **Understand the symptom** — read any error messages, stack traces, or descriptions I provide

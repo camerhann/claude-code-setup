@@ -1,3 +1,8 @@
+---
+name: gh-lint-issues
+description: Quality gate for GitHub issues — enforce labels, comments, and detail standards
+---
+
 Audit the quality of GitHub issues in this repo and enforce standards.
 
 Run `gh issue list --state open --limit 100 --json number,title,body,labels,comments,createdAt,updatedAt,author` to pull the backlog.

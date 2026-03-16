@@ -1,3 +1,8 @@
+---
+name: refactor
+description: Analyse code and suggest refactoring improvements, wait for approval before changing
+---
+
 Analyse the file or module I'm pointing at and suggest concrete refactoring improvements.
 
 Focus on:

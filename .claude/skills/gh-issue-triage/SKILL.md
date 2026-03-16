@@ -1,3 +1,8 @@
+---
+name: gh-issue-triage
+description: Audit open GitHub issues for completeness, duplicates, and staleness
+---
+
 Triage open GitHub issues in this repo. Run `gh issue list --state open --limit 50` to get the current backlog.
 
 For each issue, assess:

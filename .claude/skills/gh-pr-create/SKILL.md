@@ -1,3 +1,8 @@
+---
+name: gh-pr-create
+description: Create a GitHub PR with proper description from current branch
+---
+
 Create a pull request for the current branch and push it to GitHub.
 
 Steps:

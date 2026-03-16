@@ -14,26 +14,26 @@ This repo is a reference setup for the 7Analytics team. Copy the `.claude/` fold
 
 ## Skills available
 
-Run `/project:` followed by any of these:
+Type `/` in Claude Code to see all available skills.
 
 ### Code quality
-- `review` — review staged changes for bugs, security, and performance
-- `refactor` — analyse code and suggest improvements (asks before changing)
-- `test-this <file>` — generate real tests with edge cases, then run them
-- `security-audit` — OWASP-style security scan
-- `debug <error>` — systematic root cause analysis
+- `/review` — review staged changes for bugs, security, and performance
+- `/refactor` — analyse code and suggest improvements (asks before changing)
+- `/test-this <file>` — generate real tests with edge cases, then run them
+- `/security-audit` — OWASP-style security scan
+- `/debug <error>` — systematic root cause analysis
 
 ### GitHub workflow
-- `bug-hunt` — scan codebase for real bugs
-- `gh-issue-create` — create well-structured GitHub issues
-- `gh-issue-triage` — audit and organise open issues
-- `gh-lint-issues` — quality gate for issue standards
-- `gh-fix-issue <number>` — pick up an issue and implement a fix
-- `gh-pr-review <number>` — review a PR against its linked issue, flag scope creep
-- `gh-pr-create` — create a PR with proper description
-- `gh-pipeline` — full chain: hunt → issue → fix → review → PR
+- `/bug-hunt` — scan codebase for real bugs
+- `/gh-issue-create` — create well-structured GitHub issues
+- `/gh-issue-triage` — audit and organise open issues
+- `/gh-lint-issues` — quality gate for issue standards
+- `/gh-fix-issue <number>` — pick up an issue and implement a fix
+- `/gh-pr-review <number>` — review a PR against its linked issue, flag scope creep
+- `/gh-pr-create` — create a PR with proper description
+- `/gh-pipeline` — full chain: hunt → issue → fix → review → PR
 
 ### Understanding code
-- `explain` — full codebase architecture breakdown
-- `pr-summary` — generate PR description from branch diff
-- `migrate-check` — review DB migrations for safety
+- `/explain` — full codebase architecture breakdown
+- `/pr-summary` — generate PR description from branch diff
+- `/migrate-check` — review DB migrations for safety

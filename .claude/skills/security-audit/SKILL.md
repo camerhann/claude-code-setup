@@ -1,3 +1,8 @@
+---
+name: security-audit
+description: OWASP-style security scan of the codebase or specified files
+---
+
 Perform a security audit on this codebase or the specified files.
 
 Check for:

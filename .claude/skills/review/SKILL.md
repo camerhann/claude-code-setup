@@ -1,3 +1,8 @@
+---
+name: review
+description: Review staged changes for bugs, security issues, and performance problems
+---
+
 Review the staged changes (`git diff --cached`). If nothing is staged, review unstaged changes (`git diff`).
 
 Analyse for:

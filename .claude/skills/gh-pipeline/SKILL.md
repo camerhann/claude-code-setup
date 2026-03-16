@@ -1,3 +1,8 @@
+---
+name: gh-pipeline
+description: Full bug-to-PR pipeline: hunt, issue, fix, review, ship — with approval gates
+---
+
 Run the full bug-to-PR pipeline on this codebase. This chains together multiple steps — I'll confirm at each gate before proceeding.
 
 ## Phase 1: Hunt

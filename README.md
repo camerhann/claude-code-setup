@@ -17,22 +17,22 @@ git commit -m "Add Claude Code team skills"
 
 ## What's included
 
-### `.claude/commands/` — Team skills
+### `.claude/skills/` — Team skills
 
-These become `/project:` commands available to everyone who clones the repo. Type `/project:` in Claude Code to see them all.
+Each skill is a directory containing a `SKILL.md` file with frontmatter. They appear as `/skillname` in Claude Code's autocomplete when you type `/`.
 
 **Everyday workflow:**
-- `/project:review` — review your changes before committing
-- `/project:test-this src/file.ts` — generate tests for a file
-- `/project:debug "error message"` — systematic debugging
-- `/project:explain` — understand an unfamiliar codebase
+- `/review` — review your changes before committing
+- `/test-this src/file.ts` — generate tests for a file
+- `/debug "error message"` — systematic debugging
+- `/explain` — understand an unfamiliar codebase
 
 **GitHub integration (requires `gh` CLI):**
-- `/project:gh-fix-issue 42` — read issue #42, plan, implement, test
-- `/project:gh-pr-review 15` — review PR #15 against its linked issue
-- `/project:gh-pr-create` — create a PR from your current branch
-- `/project:gh-lint-issues` — audit issue quality across the repo
-- `/project:gh-pipeline` — full bug-to-PR pipeline with approval gates
+- `/gh-fix-issue 42` — read issue #42, plan, implement, test
+- `/gh-pr-review 15` — review PR #15 against its linked issue
+- `/gh-pr-create` — create a PR from your current branch
+- `/gh-lint-issues` — audit issue quality across the repo
+- `/gh-pipeline` — full bug-to-PR pipeline with approval gates
 
 ### `CLAUDE.md` — Project conventions
 
@@ -42,9 +42,9 @@ Tells Claude Code how your team works. Edit this per-project to include:
 - Architecture decisions
 - Anything you'd tell a new team member
 
-## Personal commands
+## Personal skills
 
-If you want commands available in ALL your projects (not just one repo), put `.md` files in `~/.claude/commands/`. These show up as `/user:` commands.
+If you want skills available in ALL your projects (not just one repo), put them in `~/.claude/skills/<skillname>/SKILL.md`. They'll appear alongside project skills when you type `/`.
 
 ## Prerequisites
 

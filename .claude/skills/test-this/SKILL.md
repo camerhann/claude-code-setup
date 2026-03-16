@@ -1,3 +1,8 @@
+---
+name: test-this
+description: Generate thorough tests with edge cases for a file or function, then run them
+---
+
 Read the file or function I'm pointing at and generate thorough tests for it.
 
 Requirements:

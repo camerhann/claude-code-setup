@@ -1,3 +1,8 @@
+---
+name: explain
+description: Full codebase architecture breakdown — what it does, how it's structured, how to run it
+---
+
 I need to understand this codebase quickly. Give me a comprehensive but concise overview:
 
 1. **What it does** — one paragraph, plain language, what problem does this solve

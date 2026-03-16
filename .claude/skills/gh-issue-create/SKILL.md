@@ -1,3 +1,8 @@
+---
+name: gh-issue-create
+description: Create well-structured GitHub issues via gh CLI
+---
+
 Create a well-structured GitHub issue. Use `gh issue create` to post it.
 
 If I provide a description, use that. If I say "from bug hunt" or reference previous findings, use those findings.

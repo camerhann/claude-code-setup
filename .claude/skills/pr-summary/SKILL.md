@@ -1,3 +1,8 @@
+---
+name: pr-summary
+description: Generate a pull request description from the current branch diff
+---
+
 Generate a pull request summary for the current branch.
 
 Steps:

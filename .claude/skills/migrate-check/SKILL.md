@@ -1,3 +1,8 @@
+---
+name: migrate-check
+description: Review database migrations for lock risk, data loss, and rollback safety
+---
+
 Review database migration files in the current changeset or specified directory.
 
 Check for:

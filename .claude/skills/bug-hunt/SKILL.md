@@ -1,3 +1,8 @@
+---
+name: bug-hunt
+description: Deep codebase scan for real bugs — not style issues, production incident risks
+---
+
 Scan this codebase for bugs. Not style issues — real bugs that could cause production incidents.
 
 Methodology:

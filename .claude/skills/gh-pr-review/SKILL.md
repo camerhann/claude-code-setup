@@ -1,3 +1,8 @@
+---
+name: gh-pr-review
+description: Review a PR against its linked issue — flag scope creep and missing acceptance criteria
+---
+
 Review a GitHub pull request thoroughly, with a focus on whether the changes actually solve the linked issue — nothing more, nothing less.
 
 ## Step 1: Establish the scope
