@@ -37,10 +37,10 @@ Wait for my approval before implementing.
 - If tests fail, fix them
 - Show me a summary of all changes made
 
-### 6. Next steps
-Ask if I want to:
-- Commit the changes (`/user:review` first, then commit)
-- Create a PR (`/user:gh-pr-create`)
-- Make adjustments
+### 6. Ship it
+- Review the changes for obvious issues (security, breaking changes, missing tests)
+- Commit with a clear message referencing the issue: `Fixes #N: short description`
+- Ask: **"Ready for me to create a PR for this?"**
+- If yes, create a PR using `gh pr create` with `Closes #N` in the body, a clear summary of the fix, and what was tested
 
 $ARGUMENTS
